@@ -1,5 +1,5 @@
 # php-behavior-analysis
-php-behavior-analysis
+Make a silhouette of the PHP file
 
 ## Files
  * Signature.txt - Functions list with labels
