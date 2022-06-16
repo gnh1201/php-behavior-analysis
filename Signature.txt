@@ -1,0 +1,1913 @@
+zend_version,Environment
+func_num_args,Function
+func_get_arg,Function
+func_get_args,Function
+strlen,String
+strcmp,String
+strncmp,String
+strcasecmp,String
+strncasecmp,String
+each,Iterable
+error_reporting,Error Handling
+define,Variable
+defined,Variable
+get_class,Object-oriented notation
+get_called_class,Object-oriented notation
+get_parent_class,Object-oriented notation
+method_exists,Object-oriented notation
+property_exists,Object-oriented notation
+class_exists,Object-oriented notation
+interface_exists,Object-oriented notation
+trait_exists,Object-oriented notation
+function_exists,Function
+class_alias,Object-oriented notation
+get_included_files,Dependency
+get_required_files,Dependency
+is_subclass_of,Object-oriented notation
+is_a,Iterable
+get_class_vars,Object-oriented notation
+get_object_vars,Object-oriented notation
+get_class_methods,Object-oriented notation
+trigger_error,Error Handling
+user_error,Error Handling
+set_error_handler,Error Handling
+restore_error_handler,Error Handling
+set_exception_handler,Error Handling
+restore_exception_handler,Error Handling
+get_declared_classes,Object-oriented notation
+get_declared_traits,Object-oriented notation
+get_declared_interfaces,Object-oriented notation
+get_defined_functions,Function
+get_defined_vars,Variable
+create_function,Function
+get_resource_type,Dependency
+get_resources,Dependency
+get_loaded_extensions,Dependency
+extension_loaded,Dependency
+get_extension_funcs,Function
+get_defined_constants,Variable
+debug_backtrace,Debug
+debug_print_backtrace,Debug
+gc_mem_caches,Garbage Collection
+gc_collect_cycles,Garbage Collection
+gc_enabled,Garbage Collection
+gc_enable,Garbage Collection
+gc_disable,Garbage Collection
+strtotime,Datetime
+date,Datetime
+idate,Datetime
+gmdate,Datetime
+mktime,Datetime
+gmmktime,Datetime
+checkdate,Datetime
+strftime,Datetime
+gmstrftime,Datetime
+time,Datetime
+localtime,Datetime
+getdate,Datetime
+date_create,Datetime
+date_create_immutable,Datetime
+date_create_from_format,Datetime
+date_create_immutable_from_format,Datetime
+date_parse,Datetime
+date_parse_from_format,Datetime
+date_get_last_errors,Datetime
+date_format,Datetime
+date_modify,Datetime
+date_add,Datetime
+date_sub,Datetime
+date_timezone_get,Datetime
+date_timezone_set,Datetime
+date_offset_get,Datetime
+date_diff,Datetime
+date_time_set,Datetime
+date_date_set,Datetime
+date_isodate_set,Datetime
+date_timestamp_set,Datetime
+date_timestamp_get,Datetime
+timezone_open,Datetime
+timezone_name_get,Datetime
+timezone_name_from_abbr,Datetime
+timezone_offset_get,Datetime
+timezone_transitions_get,Datetime
+timezone_location_get,Datetime
+timezone_identifiers_list,Datetime
+timezone_abbreviations_list,Datetime
+timezone_version_get,Datetime
+date_interval_create_from_date_string,Datetime
+date_interval_format,Datetime
+date_default_timezone_set,Datetime
+date_default_timezone_get,Datetime
+date_sunrise,Datetime
+date_sunset,Datetime
+date_sun_info,Datetime
+libxml_set_streams_context,Serialization
+libxml_use_internal_errors,Serialization
+libxml_get_last_error,Serialization
+libxml_clear_errors,Serialization
+libxml_get_errors,Serialization
+libxml_disable_entity_loader,Serialization
+libxml_set_external_entity_loader,Serialization
+preg_match,String
+preg_match_all,String
+preg_replace,String
+preg_replace_callback,String
+preg_replace_callback_array,String
+preg_filter,String
+preg_split,String
+preg_quote,String
+preg_grep,String
+preg_last_error,String
+readgzfile,Compression
+gzrewind,Compression
+gzclose,Compression
+gzeof,Compression
+gzgetc,Compression
+gzgets,Compression
+gzgetss,Compression
+gzread,Compression
+gzopen,Compression
+gzpassthru,Compression
+gzseek,Compression
+gztell,Compression
+gzwrite,Compression
+gzputs,Compression
+gzfile,Compression
+gzcompress,Compression
+gzuncompress,Compression
+gzdeflate,Compression
+gzinflate,Compression
+gzencode,Compression
+gzdecode,Compression
+zlib_encode,Compression
+zlib_decode,Compression
+zlib_get_coding_type,Compression
+deflate_init,Compression
+deflate_add,Compression
+inflate_init,Compression
+inflate_add,Compression
+ob_gzhandler,Compression
+bcadd,Computing
+bcsub,Computing
+bcmul,Computing
+bcdiv,Computing
+bcmod,Computing
+bcpow,Computing
+bcsqrt,Computing
+bcscale,Computing
+bccomp,Computing
+bcpowmod,Computing
+bzopen,Compression
+bzread,Compression
+bzwrite,Compression
+bzflush,Compression
+bzclose,Compression
+bzerrno,Compression
+bzerrstr,Compression
+bzerror,Compression
+bzcompress,Compression
+bzdecompress,Compression
+ctype_alnum,String
+ctype_alpha,String
+ctype_cntrl,String
+ctype_digit,String
+ctype_lower,String
+ctype_graph,String
+ctype_print,String
+ctype_punct,String
+ctype_space,String
+ctype_upper,String
+ctype_xdigit,String
+dba_open,Database
+dba_popen,Database
+dba_close,Database
+dba_delete,Database
+dba_exists,Database
+dba_fetch,Database
+dba_insert,Database
+dba_replace,Database
+dba_firstkey,Database
+dba_nextkey,Database
+dba_optimize,Database
+dba_sync,Database
+dba_handlers,Database
+dba_list,Database
+dba_key_split,Database
+dom_import_simplexml,Serialization
+exif_read_data,Data Structure
+read_exif_data,Data Structure
+exif_tagname,Data Structure
+exif_thumbnail,Data Structure
+exif_imagetype,Data Structure
+finfo_open,Data Structure
+finfo_close,Data Structure
+finfo_set_flags,Data Structure
+finfo_file,Data Structure
+finfo_buffer,Data Structure
+mime_content_type,Data Structure
+filter_input,Iterable
+filter_var,Iterable
+filter_input_array,Iterable
+filter_var_array,Iterable
+filter_list,Iterable
+filter_has_var,Iterable
+filter_id,Iterable
+ftp_connect,Network
+ftp_ssl_connect,Network
+ftp_login,Network
+ftp_pwd,Network
+ftp_cdup,Network
+ftp_chdir,Network
+ftp_exec,Network
+ftp_raw,Network
+ftp_mkdir,Network
+ftp_rmdir,Network
+ftp_chmod,Network
+ftp_alloc,Network
+ftp_nlist,Network
+ftp_rawlist,Network
+ftp_systype,Network
+ftp_pasv,Network
+ftp_get,Network
+ftp_fget,Network
+ftp_put,Network
+ftp_fput,Network
+ftp_size,Network
+ftp_mdtm,Network
+ftp_rename,Network
+ftp_delete,Network
+ftp_site,Network
+ftp_close,Network
+ftp_set_option,Network
+ftp_get_option,Network
+ftp_nb_fget,Network
+ftp_nb_get,Network
+ftp_nb_continue,Network
+ftp_nb_put,Network
+ftp_nb_fput,Network
+ftp_quit,Network
+textdomain,Internationalization
+gettext,Internationalization
+_,Internationalization
+dgettext,Internationalization
+dcgettext,Internationalization
+bindtextdomain,Internationalization
+ngettext,Internationalization
+dngettext,Internationalization
+dcngettext,Internationalization
+bind_textdomain_codeset,Internationalization
+hash,Cryptography
+hash_file,Cryptography
+hash_hmac,Cryptography
+hash_hmac_file,Cryptography
+hash_init,Cryptography
+hash_update,Cryptography
+hash_update_stream,Cryptography
+hash_update_file,Cryptography
+hash_final,Cryptography
+hash_copy,Cryptography
+hash_algos,Cryptography
+hash_pbkdf2,Cryptography
+hash_equals,Cryptography
+mhash_keygen_s2k,Cryptography
+mhash_get_block_size,Cryptography
+mhash_get_hash_name,Cryptography
+mhash_count,Cryptography
+mhash,Cryptography
+json_encode,Serialization
+json_decode,Serialization
+json_last_error,Serialization
+json_last_error_msg,Serialization
+mb_convert_case,String
+mb_strtoupper,String
+mb_strtolower,String
+mb_language,String
+mb_internal_encoding,String
+mb_http_input,String
+mb_http_output,String
+mb_detect_order,String
+mb_substitute_character,String
+mb_parse_str,String
+mb_output_handler,String
+mb_preferred_mime_name,String
+mb_strlen,String
+mb_strpos,String
+mb_strrpos,String
+mb_stripos,String
+mb_strripos,String
+mb_strstr,String
+mb_strrchr,String
+mb_stristr,String
+mb_strrichr,String
+mb_substr_count,String
+mb_substr,String
+mb_strcut,String
+mb_strwidth,String
+mb_strimwidth,String
+mb_convert_encoding,String
+mb_detect_encoding,String
+mb_list_encodings,String
+mb_encoding_aliases,String
+mb_convert_kana,String
+mb_encode_mimeheader,String
+mb_decode_mimeheader,String
+mb_convert_variables,String
+mb_encode_numericentity,String
+mb_decode_numericentity,String
+mb_send_mail,String
+mb_get_info,String
+mb_check_encoding,String
+mb_regex_encoding,String
+mb_regex_set_options,String
+mb_ereg,String
+mb_eregi,String
+mb_ereg_replace,String
+mb_eregi_replace,String
+mb_ereg_replace_callback,String
+mb_split,String
+mb_ereg_match,String
+mb_ereg_search,String
+mb_ereg_search_pos,String
+mb_ereg_search_regs,String
+mb_ereg_search_init,String
+mb_ereg_search_getregs,String
+mb_ereg_search_getpos,String
+mb_ereg_search_setpos,String
+mbregex_encoding,String
+mbereg,String
+mberegi,String
+mbereg_replace,String
+mberegi_replace,String
+mbsplit,String
+mbereg_match,String
+mbereg_search,String
+mbereg_search_pos,String
+mbereg_search_regs,String
+mbereg_search_init,String
+mbereg_search_getregs,String
+mbereg_search_getpos,String
+mbereg_search_setpos,String
+mcrypt_get_key_size,Cryptography
+mcrypt_get_block_size,Cryptography
+mcrypt_get_cipher_name,Cryptography
+mcrypt_create_iv,Cryptography
+mcrypt_list_algorithms,Cryptography
+mcrypt_list_modes,Cryptography
+mcrypt_get_iv_size,Cryptography
+mcrypt_encrypt,Cryptography
+mcrypt_decrypt,Cryptography
+mcrypt_module_open,Cryptography
+mcrypt_generic_init,Cryptography
+mcrypt_generic,Cryptography
+mdecrypt_generic,Cryptography
+mcrypt_generic_deinit,Cryptography
+mcrypt_enc_self_test,Cryptography
+mcrypt_enc_is_block_algorithm_mode,Cryptography
+mcrypt_enc_is_block_algorithm,Cryptography
+mcrypt_enc_is_block_mode,Cryptography
+mcrypt_enc_get_block_size,Cryptography
+mcrypt_enc_get_key_size,Cryptography
+mcrypt_enc_get_supported_key_sizes,Cryptography
+mcrypt_enc_get_iv_size,Cryptography
+mcrypt_enc_get_algorithms_name,Cryptography
+mcrypt_enc_get_modes_name,Cryptography
+mcrypt_module_self_test,Cryptography
+mcrypt_module_is_block_algorithm_mode,Cryptography
+mcrypt_module_is_block_algorithm,Cryptography
+mcrypt_module_is_block_mode,Cryptography
+mcrypt_module_get_algo_block_size,Cryptography
+mcrypt_module_get_algo_key_size,Cryptography
+mcrypt_module_get_supported_key_sizes,Cryptography
+mcrypt_module_close,Cryptography
+spl_classes,Object-oriented notation
+spl_autoload,Object-oriented notation
+spl_autoload_extensions,Object-oriented notation
+spl_autoload_register,Object-oriented notation
+spl_autoload_unregister,Object-oriented notation
+spl_autoload_functions,Object-oriented notation
+spl_autoload_call,Object-oriented notation
+class_parents,Object-oriented notation
+class_implements,Object-oriented notation
+class_uses,Object-oriented notation
+spl_object_hash,Object-oriented notation
+iterator_to_array,Iterable
+iterator_count,Iterable
+iterator_apply,Iterable
+pdo_drivers,Database
+posix_kill,POSIX
+posix_getpid,POSIX
+posix_getppid,POSIX
+posix_getuid,POSIX
+posix_setuid,POSIX
+posix_geteuid,POSIX
+posix_seteuid,POSIX
+posix_getgid,POSIX
+posix_setgid,POSIX
+posix_getegid,POSIX
+posix_setegid,POSIX
+posix_getgroups,POSIX
+posix_getlogin,POSIX
+posix_getpgrp,POSIX
+posix_setsid,POSIX
+posix_setpgid,POSIX
+posix_getpgid,POSIX
+posix_getsid,POSIX
+posix_uname,POSIX
+posix_times,POSIX
+posix_ctermid,POSIX
+posix_ttyname,POSIX
+posix_isatty,POSIX
+posix_getcwd,POSIX
+posix_mkfifo,POSIX
+posix_mknod,POSIX
+posix_access,POSIX
+posix_getgrnam,POSIX
+posix_getgrgid,POSIX
+posix_getpwnam,POSIX
+posix_getpwuid,POSIX
+posix_getrlimit,POSIX
+posix_setrlimit,POSIX
+posix_get_last_error,POSIX
+posix_errno,POSIX
+posix_strerror,POSIX
+posix_initgroups,POSIX
+session_name,Session
+session_module_name,Session
+session_save_path,Session
+session_id,Session
+session_regenerate_id,Session
+session_decode,Session
+session_encode,Session
+session_start,Session
+session_destroy,Session
+session_unset,Session
+session_set_save_handler,Session
+session_cache_limiter,Session
+session_cache_expire,Session
+session_set_cookie_params,Cookie
+session_get_cookie_params,Cookie
+session_write_close,Session
+session_abort,Session
+session_reset,Session
+session_status,Session
+session_register_shutdown,Session
+session_commit,Session
+simplexml_load_file,Serialization
+simplexml_load_string,Serialization
+simplexml_import_dom,Serialization
+use_soap_error_handler,Serialization
+is_soap_fault,Serialization
+socket_select,Network
+socket_create,Network
+socket_create_listen,Network
+socket_create_pair,Network
+socket_accept,Network
+socket_set_nonblock,Network
+socket_set_block,Network
+socket_listen,Network
+socket_close,Network
+socket_write,Network
+socket_read,Network
+socket_getsockname,Network
+socket_getpeername,Network
+socket_connect,Network
+socket_strerror,Network
+socket_bind,Network
+socket_recv,Network
+socket_send,Network
+socket_recvfrom,Network
+socket_sendto,Network
+socket_get_option,Network
+socket_set_option,Network
+socket_shutdown,Network
+socket_last_error,Network
+socket_clear_error,Network
+socket_import_stream,Network
+socket_sendmsg,Network
+socket_recvmsg,Network
+socket_cmsg_space,Network
+socket_getopt,Network
+socket_setopt,Network
+constant,Variable
+bin2hex,Type Conversion
+hex2bin,Type Conversion
+sleep,Performance
+usleep,Performance
+time_nanosleep,Datetime
+time_sleep_until,Datetime
+strptime,Datetime
+flush,Standard streams
+wordwrap,String
+htmlspecialchars,Serialization
+htmlentities,Serialization
+html_entity_decode,Serialization
+htmlspecialchars_decode,Serialization
+get_html_translation_table,Serialization
+sha1,Cryptography
+sha1_file,Cryptography
+md5,Cryptography
+md5_file,Cryptography
+crc32,Cryptography
+iptcparse,Data Structure
+iptcembed,Data Structure
+getimagesize,Data Structure
+getimagesizefromstring,Data Structure
+image_type_to_mime_type,Data Structure
+image_type_to_extension,Data Structure
+phpinfo,Environment
+phpversion,Environment
+phpcredits,Environment
+php_sapi_name,Environment
+php_uname,Environment
+php_ini_scanned_files,Dependency
+php_ini_loaded_file,Dependency
+strnatcmp,String
+strnatcasecmp,String
+substr_count,String
+strspn,String
+strcspn,String
+strtok,String
+strtoupper,String
+strtolower,String
+strpos,String
+stripos,String
+strrpos,String
+strripos,String
+strrev,String
+hebrev,String
+hebrevc,String
+nl2br,String
+basename,String
+dirname,String
+pathinfo,String
+stripslashes,String
+stripcslashes,String
+strstr,String
+stristr,String
+strrchr,String
+str_shuffle,String
+str_word_count,String
+str_split,String
+strpbrk,String
+substr_compare,String
+strcoll,String
+money_format,String
+substr,String
+substr_replace,String
+quotemeta,String
+ucfirst,String
+lcfirst,String
+ucwords,String
+strtr,String
+addslashes,String
+addcslashes,String
+rtrim,String
+str_replace,String
+str_ireplace,String
+str_repeat,String
+count_chars,String
+chunk_split,String
+trim,String
+ltrim,String
+strip_tags,String
+similar_text,String
+explode,String
+implode,String
+join,String
+setlocale,String
+localeconv,String
+nl_langinfo,String
+soundex,String
+levenshtein,String
+chr,String
+ord,String
+parse_str,String
+str_getcsv,String
+str_pad,String
+chop,String
+strchr,String
+sprintf,String
+printf,Standard streams
+vprintf,Standard streams
+vsprintf,Standard streams
+fprintf,Standard streams
+vfprintf,Standard streams
+sscanf,Standard streams
+fscanf,Standard streams
+parse_url,URL Parameter
+urlencode,URL Parameter
+urldecode,URL Parameter
+rawurlencode,URL Parameter
+rawurldecode,URL Parameter
+http_build_query,URL Parameter
+readlink,File Operation
+linkinfo,File Operation
+symlink,File Operation
+link,File Operation
+unlink,File Operation
+exec,Execution
+system,Execution
+escapeshellcmd,Execution
+escapeshellarg,Execution
+passthru,Execution
+shell_exec,Execution
+proc_open,Execution
+proc_close,Execution
+proc_terminate,Execution
+proc_get_status,Execution
+proc_nice,Execution
+rand,Mathematics
+srand,Mathematics
+getrandmax,Mathematics
+mt_rand,Mathematics
+mt_srand,Mathematics
+mt_getrandmax,Mathematics
+random_bytes,Mathematics
+random_int,Mathematics
+getservbyname,Network
+getservbyport,Network
+getprotobyname,Network
+getprotobynumber,Network
+getmyuid,Environment
+getmygid,Environment
+getmypid,Environment
+getmyinode,File Operation
+getlastmod,File Operation
+base64_decode,Serialization
+base64_encode,Serialization
+password_hash,Cryptography
+password_get_info,Cryptography
+password_needs_rehash,Cryptography
+password_verify,Cryptography
+convert_uuencode,Serialization
+convert_uudecode,Serialization
+abs,Mathematics
+ceil,Mathematics
+floor,Mathematics
+round,Mathematics
+sin,Mathematics
+cos,Mathematics
+tan,Mathematics
+asin,Mathematics
+acos,Mathematics
+atan,Mathematics
+atanh,Mathematics
+atan2,Mathematics
+sinh,Mathematics
+cosh,Mathematics
+tanh,Mathematics
+asinh,Mathematics
+acosh,Mathematics
+expm1,Mathematics
+log1p,Mathematics
+pi,Mathematics
+is_finite,Mathematics
+is_nan,Mathematics
+is_infinite,Mathematics
+pow,Mathematics
+exp,Mathematics
+log,Mathematics
+log10,Mathematics
+sqrt,Mathematics
+hypot,Mathematics
+deg2rad,Mathematics
+rad2deg,Mathematics
+bindec,Mathematics
+hexdec,Mathematics
+octdec,Mathematics
+decbin,Mathematics
+decoct,Mathematics
+dechex,Mathematics
+base_convert,Mathematics
+number_format,Mathematics
+fmod,Mathematics
+intdiv,Mathematics
+inet_ntop,Network
+inet_pton,Network
+ip2long,Network
+long2ip,Network
+getenv,Environment
+putenv,Environment
+getopt,Environment
+sys_getloadavg,Performance
+microtime,Performance
+gettimeofday,Performance
+getrusage,Performance
+uniqid,Environment
+quoted_printable_decode,String
+quoted_printable_encode,String
+convert_cyr_string,String
+get_current_user,Environment
+set_time_limit,Performance
+header_register_callback,Function
+get_cfg_var,Environment
+get_magic_quotes_gpc,String
+get_magic_quotes_runtime,String
+error_log,Logging
+error_get_last,Error Handling
+error_clear_last,Error Handling
+call_user_func,Function
+call_user_func_array,Function
+forward_static_call,Function
+forward_static_call_array,Function
+serialize,Serialization
+unserialize,Serialization
+var_dump,Debug
+var_export,Debug
+debug_zval_dump,Debug
+print_r,Debug
+memory_get_usage,Performance
+memory_get_peak_usage,Performance
+register_shutdown_function,Function
+register_tick_function,Function
+unregister_tick_function,Function
+highlight_file,File Operation
+show_source,File Operation
+highlight_string,String
+php_strip_whitespace,String
+ini_get,Environment
+ini_get_all,Environment
+ini_set,Environment
+ini_alter,Environment
+ini_restore,Environment
+get_include_path,Environment
+set_include_path,Environment
+restore_include_path,Environment
+setcookie,Cookie
+setrawcookie,Cookie
+header,HTTP Header
+header_remove,HTTP Header
+headers_sent,HTTP Header
+headers_list,HTTP Header
+http_response_code,Network
+connection_aborted,Network
+connection_status,Network
+ignore_user_abort,Network
+parse_ini_file,Serialization
+parse_ini_string,Serialization
+is_uploaded_file,File Operation
+move_uploaded_file,File Operation
+gethostbyaddr,Network
+gethostbyname,Network
+gethostbynamel,Network
+gethostname,Network
+dns_check_record,Network
+checkdnsrr,Network
+dns_get_mx,Network
+getmxrr,Network
+dns_get_record,Network
+intval,Type Conversion
+floatval,Type Conversion
+doubleval,Type Conversion
+strval,Type Conversion
+boolval,Type Conversion
+gettype,Type Conversion
+settype,Type Conversion
+is_null,Type Conversion
+is_resource,Type Conversion
+is_bool,Type Conversion
+is_int,Type Conversion
+is_float,Type Conversion
+is_integer,Type Conversion
+is_long,Type Conversion
+is_double,Type Conversion
+is_real,Type Conversion
+is_numeric,Type Conversion
+is_string,Type Conversion
+is_array,Type Conversion
+is_object,Type Conversion
+is_scalar,Type Conversion
+is_callable,Type Conversion
+pclose,File Operation
+popen,File Operation
+readfile,File Operation
+rewind,File Operation
+rmdir,File Operation
+umask,File Operation
+fclose,File Operation
+feof,File Operation
+fgetc,File Operation
+fgets,File Operation
+fgetss,File Operation
+fread,File Operation
+fopen,File Operation
+fpassthru,File Operation
+ftruncate,File Operation
+fstat,File Operation
+fseek,File Operation
+ftell,File Operation
+fflush,File Operation
+fwrite,File Operation
+fputs,File Operation
+mkdir,File Operation
+rename,File Operation
+copy,File Operation
+tempnam,File Operation
+tmpfile,File Operation
+file,File Operation
+file_get_contents,File Operation
+file_put_contents,File Operation
+stream_select,Stream
+stream_context_create,Stream
+stream_context_set_params,Stream
+stream_context_get_params,Stream
+stream_context_set_option,Stream
+stream_context_get_options,Stream
+stream_context_get_default,Stream
+stream_context_set_default,Stream
+stream_filter_prepend,Stream
+stream_filter_append,Stream
+stream_filter_remove,Stream
+stream_socket_client,Stream
+stream_socket_server,Stream
+stream_socket_accept,Stream
+stream_socket_get_name,Stream
+stream_socket_recvfrom,Stream
+stream_socket_sendto,Stream
+stream_socket_enable_crypto,Stream
+stream_socket_shutdown,Stream
+stream_socket_pair,Stream
+stream_copy_to_stream,Stream
+stream_get_contents,Stream
+stream_supports_lock,Stream
+fgetcsv,File Operation
+fputcsv,File Operation
+flock,File Operation
+get_meta_tags,Network
+stream_set_read_buffer,Stream
+stream_set_write_buffer,Stream
+set_file_buffer,Stream
+stream_set_chunk_size,Stream
+stream_set_blocking,Stream
+socket_set_blocking,Stream
+stream_get_meta_data,Stream
+stream_get_line,Stream
+stream_wrapper_register,Stream
+stream_register_wrapper,Stream
+stream_wrapper_unregister,Stream
+stream_wrapper_restore,Stream
+stream_get_wrappers,Stream
+stream_get_transports,Stream
+stream_resolve_include_path,Stream
+stream_is_local,Stream
+get_headers,HTTP Header
+stream_set_timeout,Network
+socket_set_timeout,Network
+socket_get_status,Network
+realpath,File Operation
+fnmatch,Execution
+fsockopen,Network
+pfsockopen,Network
+pack,Network
+unpack,Network
+get_browser,Network
+crypt,Cryptography
+opendir,File Operation
+closedir,File Operation
+chdir,File Operation
+getcwd,File Operation
+rewinddir,File Operation
+readdir,File Operation
+dir,File Operation
+scandir,File Operation
+glob,File Operation
+fileatime,File Operation
+filectime,File Operation
+filegroup,File Operation
+fileinode,File Operation
+filemtime,File Operation
+fileowner,File Operation
+fileperms,File Operation
+filesize,File Operation
+filetype,File Operation
+file_exists,File Operation
+is_writable,File Operation
+is_writeable,File Operation
+is_readable,File Operation
+is_executable,File Operation
+is_file,File Operation
+is_dir,File Operation
+is_link,File Operation
+stat,File Operation
+lstat,File Operation
+chown,File Operation
+chgrp,File Operation
+lchown,File Operation
+lchgrp,File Operation
+chmod,File Operation
+touch,File Operation
+clearstatcache,File Operation
+disk_total_space,File Operation
+disk_free_space,File Operation
+diskfreespace,File Operation
+realpath_cache_size,File Operation
+realpath_cache_get,File Operation
+mail,Network
+ezmlm_hash,Cryptography
+openlog,Logging
+syslog,Logging
+closelog,Logging
+lcg_value,Mathematics
+metaphone,String
+ob_start,Output Buffering
+ob_flush,Output Buffering
+ob_clean,Output Buffering
+ob_end_flush,Output Buffering
+ob_end_clean,Output Buffering
+ob_get_flush,Output Buffering
+ob_get_clean,Output Buffering
+ob_get_length,Output Buffering
+ob_get_level,Output Buffering
+ob_get_status,Output Buffering
+ob_get_contents,Output Buffering
+ob_implicit_flush,Output Buffering
+ob_list_handlers,Output Buffering
+ksort,Iterable
+krsort,Iterable
+natsort,Iterable
+natcasesort,Iterable
+asort,Iterable
+arsort,Iterable
+sort,Iterable
+rsort,Iterable
+usort,Iterable
+uasort,Iterable
+uksort,Iterable
+shuffle,Iterable
+array_walk,Iterable
+array_walk_recursive,Iterable
+count,Iterable
+end,Iterable
+prev,Iterable
+next,Iterable
+reset,Iterable
+current,Iterable
+key,Iterable
+min,Iterable
+max,Iterable
+in_array,Iterable
+array_search,Iterable
+extract,Iterable
+compact,Iterable
+array_fill,Iterable
+array_fill_keys,Iterable
+range,Iterable
+array_multisort,Iterable
+array_push,Iterable
+array_pop,Iterable
+array_shift,Iterable
+array_unshift,Iterable
+array_splice,Iterable
+array_slice,Iterable
+array_merge,Iterable
+array_merge_recursive,Iterable
+array_replace,Iterable
+array_replace_recursive,Iterable
+array_keys,Iterable
+array_values,Iterable
+array_count_values,Iterable
+array_column,Iterable
+array_reverse,Iterable
+array_reduce,Iterable
+array_pad,Iterable
+array_flip,Iterable
+array_change_key_case,Iterable
+array_rand,Iterable
+array_unique,Iterable
+array_intersect,Iterable
+array_intersect_key,Iterable
+array_intersect_ukey,Iterable
+array_uintersect,Iterable
+array_intersect_assoc,Iterable
+array_uintersect_assoc,Iterable
+array_intersect_uassoc,Iterable
+array_uintersect_uassoc,Iterable
+array_diff,Iterable
+array_diff_key,Iterable
+array_diff_ukey,Iterable
+array_udiff,Iterable
+array_diff_assoc,Iterable
+array_udiff_assoc,Iterable
+array_diff_uassoc,Iterable
+array_udiff_uassoc,Iterable
+array_sum,Iterable
+array_product,Iterable
+array_filter,Iterable
+array_map,Iterable
+array_chunk,Iterable
+array_combine,Iterable
+array_key_exists,Iterable
+pos,Iterable
+sizeof,Iterable
+key_exists,Iterable
+assert,Iterable
+assert_options,Iterable
+version_compare,Environment
+ftok,File Operation
+str_rot13,Cryptography
+stream_get_filters,Stream
+stream_filter_register,Stream
+stream_bucket_make_writeable,Stream
+stream_bucket_prepend,Stream
+stream_bucket_append,Stream
+stream_bucket_new,Stream
+output_add_rewrite_var,Stream
+output_reset_rewrite_vars,Stream
+sys_get_temp_dir,Environment
+msg_get_queue,System
+msg_send,System
+msg_receive,System
+msg_remove_queue,System
+msg_stat_queue,System
+msg_set_queue,System
+msg_queue_exists,System
+sem_get,System
+sem_acquire,System
+sem_release,System
+sem_remove,System
+shm_attach,System
+shm_remove,System
+shm_detach,System
+shm_put_var,System
+shm_has_var,System
+shm_get_var,System
+shm_remove_var,System
+token_get_all,Code Interpretation
+token_name,Code Interpretation
+xml_parser_create,Serialization
+xml_parser_create_ns,Serialization
+xml_set_object,Serialization
+xml_set_element_handler,Serialization
+xml_set_character_data_handler,Serialization
+xml_set_processing_instruction_handler,Serialization
+xml_set_default_handler,Serialization
+xml_set_unparsed_entity_decl_handler,Serialization
+xml_set_notation_decl_handler,Serialization
+xml_set_external_entity_ref_handler,Serialization
+xml_set_start_namespace_decl_handler,Serialization
+xml_set_end_namespace_decl_handler,Serialization
+xml_parse,Serialization
+xml_parse_into_struct,Serialization
+xml_get_error_code,Serialization
+xml_error_string,Serialization
+xml_get_current_line_number,Serialization
+xml_get_current_column_number,Serialization
+xml_get_current_byte_index,Serialization
+xml_parser_free,Serialization
+xml_parser_set_option,Serialization
+xml_parser_get_option,Serialization
+utf8_encode,String
+utf8_decode,String
+xmlrpc_encode,Serialization
+xmlrpc_decode,Serialization
+xmlrpc_decode_request,Serialization
+xmlrpc_encode_request,Serialization
+xmlrpc_get_type,Serialization
+xmlrpc_set_type,Serialization
+xmlrpc_is_fault,Serialization
+xmlrpc_server_create,Serialization
+xmlrpc_server_destroy,Serialization
+xmlrpc_server_register_method,Serialization
+xmlrpc_server_call_method,Serialization
+xmlrpc_parse_method_descriptions,Serialization
+xmlrpc_server_add_introspection_data,Serialization
+xmlrpc_server_register_introspection_callback,Serialization
+xmlwriter_open_uri,Serialization
+xmlwriter_open_memory,Serialization
+xmlwriter_set_indent,Serialization
+xmlwriter_set_indent_string,Serialization
+xmlwriter_start_comment,Serialization
+xmlwriter_end_comment,Serialization
+xmlwriter_start_attribute,Serialization
+xmlwriter_end_attribute,Serialization
+xmlwriter_write_attribute,Serialization
+xmlwriter_start_attribute_ns,Serialization
+xmlwriter_write_attribute_ns,Serialization
+xmlwriter_start_element,Serialization
+xmlwriter_end_element,Serialization
+xmlwriter_full_end_element,Serialization
+xmlwriter_start_element_ns,Serialization
+xmlwriter_write_element,Serialization
+xmlwriter_write_element_ns,Serialization
+xmlwriter_start_pi,Serialization
+xmlwriter_end_pi,Serialization
+xmlwriter_write_pi,Serialization
+xmlwriter_start_cdata,Serialization
+xmlwriter_end_cdata,Serialization
+xmlwriter_write_cdata,Serialization
+xmlwriter_text,Serialization
+xmlwriter_write_raw,Serialization
+xmlwriter_start_document,Serialization
+xmlwriter_end_document,Serialization
+xmlwriter_write_comment,Serialization
+xmlwriter_start_dtd,Serialization
+xmlwriter_end_dtd,Serialization
+xmlwriter_write_dtd,Serialization
+xmlwriter_start_dtd_element,Serialization
+xmlwriter_end_dtd_element,Serialization
+xmlwriter_write_dtd_element,Serialization
+xmlwriter_start_dtd_attlist,Serialization
+xmlwriter_end_dtd_attlist,Serialization
+xmlwriter_write_dtd_attlist,Serialization
+xmlwriter_start_dtd_entity,Serialization
+xmlwriter_end_dtd_entity,Serialization
+xmlwriter_write_dtd_entity,Serialization
+xmlwriter_output_memory,Serialization
+xmlwriter_flush,Serialization
+zip_open,Compression
+zip_close,Compression
+zip_read,Compression
+zip_entry_open,Compression
+zip_entry_close,Compression
+zip_entry_read,Compression
+zip_entry_filesize,Compression
+zip_entry_name,Compression
+zip_entry_compressedsize,Compression
+zip_entry_compressionmethod,Compression
+apache_lookup_uri,Dependency
+virtual,Object-oriented notation
+apache_request_headers,Dependency
+apache_response_headers,Dependency
+apache_setenv,Dependency
+apache_getenv,Dependency
+apache_note,Dependency
+apache_get_version,Dependency
+apache_get_modules,Dependency
+getallheaders,HTTP Header
+mysqli_affected_rows,Database
+mysqli_autocommit,Database
+mysqli_begin_transaction,Database
+mysqli_change_user,Database
+mysqli_character_set_name,Database
+mysqli_close,Database
+mysqli_commit,Database
+mysqli_connect,Database
+mysqli_connect_errno,Database
+mysqli_connect_error,Database
+mysqli_data_seek,Database
+mysqli_dump_debug_info,Database
+mysqli_debug,Database
+mysqli_errno,Database
+mysqli_error,Database
+mysqli_error_list,Database
+mysqli_stmt_execute,Database
+mysqli_execute,Database
+mysqli_fetch_field,Database
+mysqli_fetch_fields,Database
+mysqli_fetch_field_direct,Database
+mysqli_fetch_lengths,Database
+mysqli_fetch_array,Database
+mysqli_fetch_assoc,Database
+mysqli_fetch_object,Database
+mysqli_fetch_row,Database
+mysqli_field_count,Database
+mysqli_field_seek,Database
+mysqli_field_tell,Database
+mysqli_free_result,Database
+mysqli_get_charset,Database
+mysqli_get_client_info,Database
+mysqli_get_client_version,Database
+mysqli_get_links_stats,Database
+mysqli_get_host_info,Database
+mysqli_get_proto_info,Database
+mysqli_get_server_info,Database
+mysqli_get_server_version,Database
+mysqli_get_warnings,Database
+mysqli_init,Database
+mysqli_info,Database
+mysqli_insert_id,Database
+mysqli_kill,Database
+mysqli_more_results,Database
+mysqli_multi_query,Database
+mysqli_next_result,Database
+mysqli_num_fields,Database
+mysqli_num_rows,Database
+mysqli_options,Database
+mysqli_ping,Database
+mysqli_prepare,Database
+mysqli_report,Database
+mysqli_query,Database
+mysqli_real_connect,Database
+mysqli_real_escape_string,Database
+mysqli_real_query,Database
+mysqli_release_savepoint,Database
+mysqli_rollback,Database
+mysqli_savepoint,Database
+mysqli_select_db,Database
+mysqli_set_charset,Database
+mysqli_stmt_affected_rows,Database
+mysqli_stmt_attr_get,Database
+mysqli_stmt_attr_set,Database
+mysqli_stmt_bind_param,Database
+mysqli_stmt_bind_result,Database
+mysqli_stmt_close,Database
+mysqli_stmt_data_seek,Database
+mysqli_stmt_errno,Database
+mysqli_stmt_error,Database
+mysqli_stmt_error_list,Database
+mysqli_stmt_fetch,Database
+mysqli_stmt_field_count,Database
+mysqli_stmt_free_result,Database
+mysqli_stmt_get_warnings,Database
+mysqli_stmt_init,Database
+mysqli_stmt_insert_id,Database
+mysqli_stmt_num_rows,Database
+mysqli_stmt_param_count,Database
+mysqli_stmt_prepare,Database
+mysqli_stmt_reset,Database
+mysqli_stmt_result_metadata,Database
+mysqli_stmt_send_long_data,Database
+mysqli_stmt_store_result,Database
+mysqli_stmt_sqlstate,Database
+mysqli_sqlstate,Database
+mysqli_ssl_set,Database
+mysqli_stat,Database
+mysqli_store_result,Database
+mysqli_thread_id,Database
+mysqli_thread_safe,Database
+mysqli_use_result,Database
+mysqli_warning_count,Database
+mysqli_refresh,Database
+mysqli_escape_string,Database
+mysqli_set_opt,Database
+curl_init,Network
+curl_copy_handle,Network
+curl_version,Network
+curl_setopt,Network
+curl_setopt_array,Network
+curl_exec,Network
+curl_getinfo,Network
+curl_error,Network
+curl_errno,Network
+curl_close,Network
+curl_strerror,Network
+curl_multi_strerror,Network
+curl_reset,Network
+curl_escape,Network
+curl_unescape,Network
+curl_pause,Network
+curl_multi_init,Network
+curl_multi_add_handle,Network
+curl_multi_remove_handle,Network
+curl_multi_select,Network
+curl_multi_exec,Network
+curl_multi_getcontent,Network
+curl_multi_info_read,Network
+curl_multi_close,Network
+curl_multi_setopt,Network
+curl_share_init,Network
+curl_share_close,Network
+curl_share_setopt,Network
+curl_file_create,Network
+gd_info,Data Structure
+imagearc,Data Structure
+imageellipse,Data Structure
+imagechar,Data Structure
+imagecharup,Data Structure
+imagecolorat,Data Structure
+imagecolorallocate,Data Structure
+imagepalettecopy,Data Structure
+imagecreatefromstring,Data Structure
+imagecolorclosest,Data Structure
+imagecolorclosesthwb,Data Structure
+imagecolordeallocate,Data Structure
+imagecolorresolve,Data Structure
+imagecolorexact,Data Structure
+imagecolorset,Data Structure
+imagecolortransparent,Data Structure
+imagecolorstotal,Data Structure
+imagecolorsforindex,Data Structure
+imagecopy,Data Structure
+imagecopymerge,Data Structure
+imagecopymergegray,Data Structure
+imagecopyresized,Data Structure
+imagecreate,Data Structure
+imagecreatetruecolor,Data Structure
+imageistruecolor,Data Structure
+imagetruecolortopalette,Data Structure
+imagepalettetotruecolor,Data Structure
+imagesetthickness,Data Structure
+imagefilledarc,Data Structure
+imagefilledellipse,Data Structure
+imagealphablending,Data Structure
+imagesavealpha,Data Structure
+imagecolorallocatealpha,Data Structure
+imagecolorresolvealpha,Data Structure
+imagecolorclosestalpha,Data Structure
+imagecolorexactalpha,Data Structure
+imagecopyresampled,Data Structure
+imagerotate,Data Structure
+imageflip,Data Structure
+imageantialias,Data Structure
+imagecrop,Data Structure
+imagecropauto,Data Structure
+imagescale,Data Structure
+imageaffine,Data Structure
+imageaffinematrixconcat,Data Structure
+imageaffinematrixget,Data Structure
+imagesetinterpolation,Data Structure
+imagesettile,Data Structure
+imagesetbrush,Data Structure
+imagesetstyle,Data Structure
+imagecreatefrompng,Data Structure
+imagecreatefromgif,Data Structure
+imagecreatefromjpeg,Data Structure
+imagecreatefromwbmp,Data Structure
+imagecreatefromxbm,Data Structure
+imagecreatefromgd,Data Structure
+imagecreatefromgd2,Data Structure
+imagecreatefromgd2part,Data Structure
+imagepng,Data Structure
+imagegif,Data Structure
+imagejpeg,Data Structure
+imagewbmp,Data Structure
+imagegd,Data Structure
+imagegd2,Data Structure
+imagedestroy,Data Structure
+imagegammacorrect,Data Structure
+imagefill,Data Structure
+imagefilledpolygon,Data Structure
+imagefilledrectangle,Data Structure
+imagefilltoborder,Data Structure
+imagefontwidth,Data Structure
+imagefontheight,Data Structure
+imageinterlace,Data Structure
+imageline,Data Structure
+imageloadfont,Data Structure
+imagepolygon,Data Structure
+imagerectangle,Data Structure
+imagesetpixel,Data Structure
+imagestring,Data Structure
+imagestringup,Data Structure
+imagesx,Data Structure
+imagesy,Data Structure
+imagedashedline,Data Structure
+imagettfbbox,Data Structure
+imagettftext,Data Structure
+imageftbbox,Data Structure
+imagefttext,Data Structure
+imagetypes,Data Structure
+jpeg2wbmp,Data Structure
+png2wbmp,Data Structure
+image2wbmp,Data Structure
+imagelayereffect,Data Structure
+imagexbm,Data Structure
+imagecolormatch,Data Structure
+imagefilter,Data Structure
+imageconvolution,Data Structure
+iconv,String
+iconv_get_encoding,String
+iconv_set_encoding,String
+iconv_strlen,String
+iconv_substr,String
+iconv_strpos,String
+iconv_strrpos,String
+iconv_mime_encode,String
+iconv_mime_decode,String
+iconv_mime_decode_headers,String
+openssl_get_cert_locations,Cryptography
+openssl_spki_new,Cryptography
+openssl_spki_verify,Cryptography
+openssl_spki_export,Cryptography
+openssl_spki_export_challenge,Cryptography
+openssl_pkey_free,Cryptography
+openssl_pkey_new,Cryptography
+openssl_pkey_export,Cryptography
+openssl_pkey_export_to_file,Cryptography
+openssl_pkey_get_private,Cryptography
+openssl_pkey_get_public,Cryptography
+openssl_pkey_get_details,Cryptography
+openssl_free_key,Cryptography
+openssl_get_privatekey,Cryptography
+openssl_get_publickey,Cryptography
+openssl_x509_read,Cryptography
+openssl_x509_free,Cryptography
+openssl_x509_parse,Cryptography
+openssl_x509_checkpurpose,Cryptography
+openssl_x509_check_private_key,Cryptography
+openssl_x509_export,Cryptography
+openssl_x509_fingerprint,Cryptography
+openssl_x509_export_to_file,Cryptography
+openssl_pkcs12_export,Cryptography
+openssl_pkcs12_export_to_file,Cryptography
+openssl_pkcs12_read,Cryptography
+openssl_csr_new,Cryptography
+openssl_csr_export,Cryptography
+openssl_csr_export_to_file,Cryptography
+openssl_csr_sign,Cryptography
+openssl_csr_get_subject,Cryptography
+openssl_csr_get_public_key,Cryptography
+openssl_digest,Cryptography
+openssl_encrypt,Cryptography
+openssl_decrypt,Cryptography
+openssl_cipher_iv_length,Cryptography
+openssl_sign,Cryptography
+openssl_verify,Cryptography
+openssl_seal,Cryptography
+openssl_open,Cryptography
+openssl_pbkdf2,Cryptography
+openssl_pkcs7_verify,Cryptography
+openssl_pkcs7_decrypt,Cryptography
+openssl_pkcs7_sign,Cryptography
+openssl_pkcs7_encrypt,Cryptography
+openssl_private_encrypt,Cryptography
+openssl_private_decrypt,Cryptography
+openssl_public_encrypt,Cryptography
+openssl_public_decrypt,Cryptography
+openssl_get_md_methods,Cryptography
+openssl_get_cipher_methods,Cryptography
+openssl_dh_compute_key,Cryptography
+openssl_random_pseudo_bytes,Cryptography
+openssl_error_string,Cryptography
+fc_add_pre,Function
+fc_add_post,Function
+fc_list,Function
+collator_create,String
+collator_compare,String
+collator_get_attribute,String
+collator_set_attribute,String
+collator_get_strength,String
+collator_set_strength,String
+collator_sort,String
+collator_sort_with_sort_keys,String
+collator_asort,String
+collator_get_locale,String
+collator_get_error_code,String
+collator_get_error_message,String
+collator_get_sort_key,String
+numfmt_create,String
+numfmt_format,String
+numfmt_parse,String
+numfmt_format_currency,String
+numfmt_parse_currency,String
+numfmt_set_attribute,String
+numfmt_get_attribute,String
+numfmt_set_text_attribute,String
+numfmt_get_text_attribute,String
+numfmt_set_symbol,String
+numfmt_get_symbol,String
+numfmt_set_pattern,String
+numfmt_get_pattern,String
+numfmt_get_locale,String
+numfmt_get_error_code,String
+numfmt_get_error_message,String
+normalizer_normalize,String
+normalizer_is_normalized,String
+locale_get_default,Internationalization
+locale_set_default,Internationalization
+locale_get_primary_language,Internationalization
+locale_get_script,Internationalization
+locale_get_region,Internationalization
+locale_get_keywords,Internationalization
+locale_get_display_script,Internationalization
+locale_get_display_region,Internationalization
+locale_get_display_name,Internationalization
+locale_get_display_language,Internationalization
+locale_get_display_variant,Internationalization
+locale_compose,Internationalization
+locale_parse,Internationalization
+locale_get_all_variants,Internationalization
+locale_filter_matches,Internationalization
+locale_canonicalize,Internationalization
+locale_lookup,Internationalization
+locale_accept_from_http,Internationalization
+msgfmt_create,Internationalization
+msgfmt_format,Internationalization
+msgfmt_format_message,Internationalization
+msgfmt_parse,Internationalization
+msgfmt_parse_message,Internationalization
+msgfmt_set_pattern,Internationalization
+msgfmt_get_pattern,Internationalization
+msgfmt_get_locale,Internationalization
+msgfmt_get_error_code,Internationalization
+msgfmt_get_error_message,Internationalization
+datefmt_create,Datetime
+datefmt_get_datetype,Datetime
+datefmt_get_timetype,Datetime
+datefmt_get_calendar,Datetime
+datefmt_get_calendar_object,Datetime
+datefmt_set_calendar,Datetime
+datefmt_get_locale,Datetime
+datefmt_get_timezone_id,Datetime
+datefmt_get_timezone,Datetime
+datefmt_set_timezone,Datetime
+datefmt_get_pattern,Datetime
+datefmt_set_pattern,Datetime
+datefmt_is_lenient,Datetime
+datefmt_set_lenient,Datetime
+datefmt_format,Datetime
+datefmt_format_object,Datetime
+datefmt_parse,Datetime
+datefmt_localtime,Datetime
+datefmt_get_error_code,Datetime
+datefmt_get_error_message,Datetime
+grapheme_strlen,String
+grapheme_strpos,String
+grapheme_stripos,String
+grapheme_strrpos,String
+grapheme_strripos,String
+grapheme_substr,String
+grapheme_strstr,String
+grapheme_stristr,String
+grapheme_extract,String
+idn_to_ascii,String
+idn_to_utf8,String
+resourcebundle_create,Iterable
+resourcebundle_get,Iterable
+resourcebundle_count,Iterable
+resourcebundle_locales,Iterable
+resourcebundle_get_error_code,Iterable
+resourcebundle_get_error_message,Iterable
+transliterator_create,String
+transliterator_create_from_rules,String
+transliterator_list_ids,String
+transliterator_create_inverse,String
+transliterator_transliterate,String
+transliterator_get_error_code,String
+transliterator_get_error_message,String
+intltz_create_time_zone,Datetime
+intltz_from_date_time_zone,Datetime
+intltz_create_default,Datetime
+intltz_get_id,Datetime
+intltz_get_gmt,Datetime
+intltz_get_unknown,Datetime
+intltz_create_enumeration,Datetime
+intltz_count_equivalent_ids,Datetime
+intltz_create_time_zone_id_enumeration,Datetime
+intltz_get_canonical_id,Datetime
+intltz_get_region,Datetime
+intltz_get_tz_data_version,Datetime
+intltz_get_equivalent_id,Datetime
+intltz_use_daylight_time,Datetime
+intltz_get_offset,Datetime
+intltz_get_raw_offset,Datetime
+intltz_has_same_rules,Datetime
+intltz_get_display_name,Datetime
+intltz_get_dst_savings,Datetime
+intltz_to_date_time_zone,Datetime
+intltz_get_error_code,Datetime
+intltz_get_error_message,Datetime
+intlcal_create_instance,Datetime
+intlcal_get_keyword_values_for_locale,Datetime
+intlcal_get_now,Datetime
+intlcal_get_available_locales,Datetime
+intlcal_get,Datetime
+intlcal_get_time,Datetime
+intlcal_set_time,Datetime
+intlcal_add,Datetime
+intlcal_set_time_zone,Datetime
+intlcal_after,Datetime
+intlcal_before,Datetime
+intlcal_set,Datetime
+intlcal_roll,Datetime
+intlcal_clear,Datetime
+intlcal_field_difference,Datetime
+intlcal_get_actual_maximum,Datetime
+intlcal_get_actual_minimum,Datetime
+intlcal_get_day_of_week_type,Datetime
+intlcal_get_first_day_of_week,Datetime
+intlcal_get_greatest_minimum,Datetime
+intlcal_get_least_maximum,Datetime
+intlcal_get_locale,Datetime
+intlcal_get_maximum,Datetime
+intlcal_get_minimal_days_in_first_week,Datetime
+intlcal_get_minimum,Datetime
+intlcal_get_time_zone,Datetime
+intlcal_get_type,Datetime
+intlcal_get_weekend_transition,Datetime
+intlcal_in_daylight_time,Datetime
+intlcal_is_equivalent_to,Datetime
+intlcal_is_lenient,Datetime
+intlcal_is_set,Datetime
+intlcal_is_weekend,Datetime
+intlcal_set_first_day_of_week,Datetime
+intlcal_set_lenient,Datetime
+intlcal_set_minimal_days_in_first_week,Datetime
+intlcal_equals,Datetime
+intlcal_from_date_time,Datetime
+intlcal_to_date_time,Datetime
+intlcal_get_repeated_wall_time_option,Datetime
+intlcal_get_skipped_wall_time_option,Datetime
+intlcal_set_repeated_wall_time_option,Datetime
+intlcal_set_skipped_wall_time_option,Datetime
+intlcal_get_error_code,Datetime
+intlcal_get_error_message,Datetime
+intlgregcal_create_instance,Datetime
+intlgregcal_set_gregorian_change,Datetime
+intlgregcal_get_gregorian_change,Datetime
+intlgregcal_is_leap_year,Datetime
+intl_get_error_code,Error Handling
+intl_get_error_message,Error Handling
+intl_is_failure,Error Handling
+intl_error_name,Error Handling
+oci_define_by_name,Database
+oci_bind_by_name,Database
+oci_bind_array_by_name,Database
+oci_field_is_null,Database
+oci_field_name,Database
+oci_field_size,Database
+oci_field_scale,Database
+oci_field_precision,Database
+oci_field_type,Database
+oci_field_type_raw,Database
+oci_execute,Database
+oci_cancel,Database
+oci_fetch,Database
+oci_fetch_object,Database
+oci_fetch_row,Database
+oci_fetch_assoc,Database
+oci_fetch_array,Database
+ocifetchinto,Database
+oci_fetch_all,Database
+oci_free_statement,Database
+oci_internal_debug,Database
+oci_num_fields,Database
+oci_parse,Database
+oci_get_implicit_resultset,Database
+oci_new_cursor,Database
+oci_result,Database
+oci_client_version,Database
+oci_server_version,Database
+oci_statement_type,Database
+oci_num_rows,Database
+oci_close,Database
+oci_connect,Database
+oci_new_connect,Database
+oci_pconnect,Database
+oci_error,Database
+oci_free_descriptor,Database
+oci_lob_save,Database
+oci_lob_import,Database
+oci_lob_size,Database
+oci_lob_load,Database
+oci_lob_read,Database
+oci_lob_eof,Database
+oci_lob_tell,Database
+oci_lob_truncate,Database
+oci_lob_erase,Database
+oci_lob_flush,Database
+ocisetbufferinglob,Database
+ocigetbufferinglob,Database
+oci_lob_is_equal,Database
+oci_lob_rewind,Database
+oci_lob_write,Database
+oci_lob_append,Database
+oci_lob_copy,Database
+oci_lob_export,Database
+oci_lob_seek,Database
+oci_commit,Database
+oci_rollback,Database
+oci_new_descriptor,Database
+oci_set_prefetch,Database
+oci_set_client_identifier,Database
+oci_set_edition,Database
+oci_set_module_name,Database
+oci_set_action,Database
+oci_set_client_info,Database
+oci_password_change,Database
+oci_free_collection,Database
+oci_collection_append,Database
+oci_collection_element_get,Database
+oci_collection_element_assign,Database
+oci_collection_assign,Database
+oci_collection_size,Database
+oci_collection_max,Database
+oci_collection_trim,Database
+oci_new_collection,Database
+oci_free_cursor,Database
+ocifreecursor,Database
+ocibindbyname,Database
+ocidefinebyname,Database
+ocicolumnisnull,Database
+ocicolumnname,Database
+ocicolumnsize,Database
+ocicolumnscale,Database
+ocicolumnprecision,Database
+ocicolumntype,Database
+ocicolumntyperaw,Database
+ociexecute,Database
+ocicancel,Database
+ocifetch,Database
+ocifetchstatement,Database
+ocifreestatement,Database
+ociinternaldebug,Database
+ocinumcols,Database
+ociparse,Database
+ocinewcursor,Database
+ociresult,Database
+ociserverversion,Database
+ocistatementtype,Database
+ocirowcount,Database
+ocilogoff,Database
+ocilogon,Database
+ocinlogon,Database
+ociplogon,Database
+ocierror,Database
+ocifreedesc,Database
+ocisavelob,Database
+ocisavelobfile,Database
+ociwritelobtofile,Database
+ociloadlob,Database
+ocicommit,Database
+ocirollback,Database
+ocinewdescriptor,Database
+ocisetprefetch,Database
+ocipasswordchange,Database
+ocifreecollection,Database
+ocinewcollection,Database
+ocicollappend,Database
+ocicollgetelem,Database
+ocicollassignelem,Database
+ocicollsize,Database
+ocicollmax,Database
+ocicolltrim,Database
+ioncube_file_is_encoded,Code Protection
+ioncube_file_info,Code Protection
+ioncube_file_properties,Code Protection
+ioncube_file_not_permissioned,Code Protection
+ioncube_license_properties,Code Protection
+ioncube_licensed_servers,Code Protection
+ioncube_server_data,Code Protection
+ic24_get_cache_id,Code Protection
+ic24_is_authenticated,Code Protection
+ic24_authentication_status,Code Protection
+ic24_api_version,Code Protection
+ic24_sec_cache_query,Code Protection
+ic24_sec_cache_size,Code Protection
+ic24_sec_cache_remove_item_by_id,Code Protection
+ic24_sec_cache_remove_item_by_path,Code Protection
+ic24_sec_cache_query_id,Code Protection
+ic24_sec_cache_add_path,Code Protection
+ic24_sec_cache_remove_directory,Code Protection
+ic24_sec_cache_add_directory,Code Protection
+ic24_sec_cache_do_maintenance,Code Protection
+ic24_sec_rescan_cache,Code Protection
+ic24_sec_approve_item,Code Protection
+ic24_sec_block_item,Code Protection
+ic24_sec_unblock_item,Code Protection
+ic24_sec_set_default_notify_status,Code Protection
+ic24_sec_get_default_notify_status,Code Protection
+ic24_sec_set_default_exec_status,Code Protection
+ic24_sec_get_default_exec_status,Code Protection
+ic24_sec_set_trustpoint,Code Protection
+ic24_sec_get_trustpoint,Code Protection
+ic24_set_pkv,Code Protection
+ic24_get_pkv,Code Protection
+ic24_update_domains,Code Protection
+ic24_cache_status,Code Protection
+ic24_phperr_set_ignore,Code Protection
+ioncube_check_license_properties,Code Protection
+ioncube_license_matches_server,Code Protection
+ioncube_license_has_expired,Code Protection
+ioncube_read_file,Code Protection
+ioncube_write_file,Code Protection
+ioncube_loader_version,Code Protection
+ioncube_loader_iversion,Code Protection
+eval,Code Interpretation
+$_GET,Form-based data
+$_POST,Form-based data
+$_REQUEST,Form-based data
+$_FILES,Form-based data
+$_SESSION,Session
+$_COOKIE,Cookie
+$_SERVER,Environment
+$GLOBALS,Environment
+'Shell.Application',Execution
+'WScript.shell',Execution
+mysql_affected_rows,Database
+mysql_client_encoding,Database
+mysql_close,Database
+mysql_connect,Database
+mysql_create_db,Database
+mysql_data_seek,Database
+mysql_db_name,Database
+mysql_db_query,Database
+mysql_drop_db,Database
+mysql_errno,Database
+mysql_error,Database
+mysql_escape_string,Database
+mysql_fetch_array,Database
+mysql_fetch_assoc,Database
+mysql_fetch_field,Database
+mysql_fetch_lengths,Database
+mysql_fetch_object,Database
+mysql_fetch_row,Database
+mysql_field_flags,Database
+mysql_field_len,Database
+mysql_field_name,Database
+mysql_field_seek,Database
+mysql_field_table,Database
+mysql_field_type,Database
+mysql_free_result,Database
+mysql_get_client_info,Database
+mysql_get_host_info,Database
+mysql_get_proto_info,Database
+mysql_get_server_info,Database
+mysql_info,Database
+mysql_insert_id,Database
+mysql_list_dbs,Database
+mysql_list_fields,Database
+mysql_list_processes,Database
+mysql_list_tables,Database
+mysql_num_fields,Database
+mysql_num_rows,Database
+mysql_pconnect,Database
+mysql_ping,Database
+mysql_query,Database
+mysql_real_escape_string,Database
+mysql_result,Database
+mysql_select_db,Database
+mysql_set_charset,Database
+mysql_stat,Database
+mysql_tablename,Database
+mysql_thread_id,Database
+mysql_unbuffered_query,Database
+pg_affected_rows,Database
+pg_cancel_query,Database
+pg_client_encoding,Database
+pg_close,Database
+pg_connect_poll,Database
+pg_connect,Database
+pg_connection_busy,Database
+pg_connection_reset,Database
+pg_connection_status,Database
+pg_consume_input,Database
+pg_convert,Database
+pg_copy_from,Database
+pg_copy_to,Database
+pg_dbname,Database
+pg_delete,Database
+pg_end_copy,Database
+pg_escape_bytea,Database
+pg_escape_identifier,Database
+pg_escape_literal,Database
+pg_escape_string,Database
+pg_execute,Database
+pg_fetch_all_columns,Database
+pg_fetch_all,Database
+pg_fetch_array,Database
+pg_fetch_assoc,Database
+pg_fetch_object,Database
+pg_fetch_result,Database
+pg_fetch_row,Database
+pg_field_is_null,Database
+pg_field_name,Database
+pg_field_num,Database
+pg_field_prtlen ,Database
+pg_field_size,Database
+pg_field_table,Database
+pg_field_type_oid,Database
+pg_field_type,Database
+pg_flush,Database
+pg_free_result,Database
+pg_get_notify,Database
+pg_get_pid,Database
+pg_get_result,Database
+pg_host,Database
+pg_insert,Database
+pg_last_error,Database
+pg_last_notice,Database
+pg_last_oid,Database
+pg_lo_close,Database
+pg_lo_create,Database
+pg_lo_export,Database
+pg_lo_import,Database
+pg_lo_open,Database
+pg_lo_read_all,Database
+pg_lo_read,Database
+pg_lo_seek,Database
+pg_lo_tell,Database
+pg_lo_truncate,Database
+pg_lo_unlink,Database
+pg_lo_write,Database
+pg_meta_data,Database
+pg_num_fields,Database
+pg_num_rows,Database
+pg_options,Database
+pg_parameter_status,Database
+pg_pconnect,Database
+pg_ping,Database
+pg_port,Database
+pg_prepare,Database
+pg_put_line,Database
+pg_query_params,Database
+pg_query,Database
+pg_result_error_field,Database
+pg_result_error,Database
+pg_result_seek,Database
+pg_result_status,Database
+pg_select,Database
+pg_send_execute,Database
+pg_send_prepare,Database
+pg_send_query_params,Database
+pg_send_query,Database
+pg_set_client_encoding,Database
+pg_set_error_verbosity,Database
+pg_socket,Database
+pg_trace,Database
+pg_transaction_statu,Database
+pg_tty,Database
+pg_unescape_bytea,Database
+pg_untrace,Database
+pg_update,Database
+pg_version,Database
